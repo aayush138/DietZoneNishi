@@ -123,3 +123,89 @@
 
 
 })(window.jQuery);
+
+
+		var t1=document.getElementById('t1');
+        var t2=document.getElementById('t2');
+        var t3=document.getElementById('t3');
+        var t5=document.getElementById('t5');
+        var t6=document.getElementById('t6');
+        t1.style.height="100px";
+        t2.style.height="100px";
+        t3.style.height="100px";
+        t5.style.height="100px";
+        t6.style.height="100px";
+        function sm1(){
+            if (t1.style.height=='100px'){
+            t1.style.overflow="hidden";
+            t1.style.height="auto";
+            document.getElementById('but1').innerHTML="Show Less";
+            document.getElementById('but1').style.color="#f9735b"
+            }
+
+            else{
+                t1.style.height="100px"; 
+                document.getElementById('but1').innerHTML="Show More";
+                document.getElementById('but1').style.color="#0D8344"
+            }
+        };
+
+        function sm2(){
+            if (t2.style.height=='100px'){
+            t2.style.overflow="hidden";
+            t2.style.height="auto";
+            document.getElementById('but2').innerHTML="Show Less";
+            document.getElementById('but2').style.color="#f9735b"
+            }
+
+            else{
+                t2.style.height="100px"; 
+                document.getElementById('but2').innerHTML="Show More";
+                document.getElementById('but2').style.color="#0D8344"
+            }
+        };
+
+        function sm3(){
+            if (t3.style.height=='100px'){
+            t3.style.overflow="hidden";
+            t3.style.height="auto";
+            document.getElementById('but3').innerHTML="Show Less";
+            document.getElementById('but3').style.color="#f9735b"
+            }
+
+            else{
+                t3.style.height="100px"; 
+                document.getElementById('but3').innerHTML="Show More";
+                document.getElementById('but3').style.color="#0D8344"
+            }
+        };
+
+        function sm5(){
+            if (t5.style.height=='100px'){
+            t5.style.overflow="hidden";
+            t5.style.height="auto";
+            document.getElementById('but5').innerHTML="Show Less";
+            document.getElementById('but5').style.color="#f9735b"
+            }
+
+            else{
+                t5.style.height="100px"; 
+                document.getElementById('but5').innerHTML="Show More";
+                document.getElementById('but5').style.color="#0D8344"
+            }
+        };
+
+        function sm6(){
+            if (t6.style.height=='100px'){
+            t6.style.overflow="hidden";
+            t6.style.height="auto";
+            document.getElementById('but6').innerHTML="Show Less";
+            document.getElementById('but6').style.color="#f9735b"
+            }
+
+            else{
+                t6.style.height="100px"; 
+                document.getElementById('but6').innerHTML="Show More";
+                document.getElementById('but6').style.color="#0D8344"
+            }
+        };
