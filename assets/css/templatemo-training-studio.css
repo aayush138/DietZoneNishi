@@ -731,7 +731,7 @@ subscribe
 
 .cta-content h2 em {
   font-style: normal;
-  color: #0D8344;
+  color: #14bc62;
 }
 
 .cta-content p {
@@ -1263,7 +1263,7 @@ responsive
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 400px) {
   .feature-item .right-content {
     display: inline-block;                                   
     text-align: center;
